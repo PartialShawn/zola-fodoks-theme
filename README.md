@@ -1,26 +1,26 @@
-# Zola Theme AdiDoks
+# Zola Theme Fodoks
 
-AdiDoks is a modern documentation theme, which is a port of the Hugo
-theme [Doks](https://github.com/h-enk/doks) for Zola.
+Fodoks is a modern documentation theme. It's is a fork of Adidoks, which was a port of the Hugo
+theme [Doks](https://github.com/h-enk/doks) for Zola. [Adidoks is now defunct](https://github.com/aaranxu/adidoks/issues/17) and doesn't work well on modern versions of Zola.
 
 ## Demo
 
-[Live Preview](https://adidoks.netlify.app/).
+TBA
 
 ## Requirements
 
-Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0.
+Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/). This theme has not been tested on version before 0.20.0.
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/aaranxu/adidoks.git
+git clone https://github.com/PartialShawn/zola-fodoks-theme.git
 cd adidoks
 zola serve
 # open http://127.0.0.1:1111/ in the browser
 ```
 
-Read more from [the document of the AdiDoks](https://adidoks.org/docs/getting-started/introduction/).
+Read more from [the document of the AdiDoks](https://adidoks.org/docs/getting-started/introduction/). This has not yet been updated for Fodoks.
 
 ## Installation
 
@@ -39,7 +39,7 @@ Download this theme to your themes directory:
 
 ```bash
 cd mysite/themes
-git clone https://github.com/aaranxu/adidoks.git
+git clone https://github.com/PartialShawn/zola-fodoks-theme.git
 ```
 
 Or install as a submodule:
@@ -47,7 +47,7 @@ Or install as a submodule:
 ```bash
 cd mysite
 git init  # if your project is a git repository already, ignore this command
-git submodule add https://github.com/aaranxu/adidoks.git themes/adidoks
+git submodule add https://github.com/PartialShawn/zola-fodoks-theme.git themes/zola-fodoks-theme
 ```
 
 ### Step 3: Configuration
@@ -55,14 +55,14 @@ git submodule add https://github.com/aaranxu/adidoks.git themes/adidoks
 Enable the theme in your `config.toml` in the site directory:
 
 ```toml
-theme = "adidoks"
+theme = "zola-fodoks-theme"
 ```
 
 Or copy the `config.toml.example` from the theme directory to your project's
 root directory:
 
 ```bash
-cp themes/adidoks/config.toml.example config.toml
+cp themes/zola-fodoks-theme/config.toml.example config.toml
 ```
 
 ### Step 4: Add new content
@@ -70,7 +70,7 @@ cp themes/adidoks/config.toml.example config.toml
 You can copy the content from the theme directory to your project:
 
 ```bash
-cp -r themes/adidoks/content .
+cp -r themes/zola-fodoks-theme/content .
 ```
 
 You can modify or add new posts in the `content/blog`, `content/docs` or other
